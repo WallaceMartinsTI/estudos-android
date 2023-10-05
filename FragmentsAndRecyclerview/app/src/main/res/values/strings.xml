@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FragmentsAndRecyclerview</string>
+    <string name="app_title">Prática de Fragments \n e Recyclerview</string>
+    <string name="example1">Exemplo 1 - (Clientes e Fornecedores)</string>
+
+    <!-- Customers and Suppliers -->
+    <string name="cs_customers">CLIENTES</string>
+    <string name="cs_suppliers">FORNECEDORES</string>
+
+    <!-- Customers -->
+    <string name="cs_customers_title">Lista de Clientes</string>
+
+    <!-- Supplies -->
+    <string name="cs_suppliers_title">Lista de Fornecedores</string>
+
+
+</resources>
