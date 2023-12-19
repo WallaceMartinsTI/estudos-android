@@ -8,8 +8,8 @@ import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var timerTextView: TextView
-    private lateinit var startTimmerButton: Button
+    private lateinit var timerTextMinus: TextView
+    private lateinit var startCounterMinus: Button
     private lateinit var countDownTimer: CountDownTimer
     private var timeLeftInMillis: Long = 60000
 
@@ -17,17 +17,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        startTimmerButton = findViewById(R.id.button)
+        startCounterMinus = findViewById(R.id.button)
 
-        timerTextView = findViewById(R.id.textview)
-        timerTextView.text = "Tempo: 00:00"
+        timerTextMinus = findViewById(R.id.textview)
+        timerTextMinus.text = "Tempo: 00:00"
 
-        startTimmerButton.setOnClickListener {
-            startCounter()
+        startCounterMinus.setOnClickListener {
+            startCounterMinus()
         }
     }
 
-    private fun startCounter() {
+    private fun startCounterMinus() {
         countDownTimer = object : CountDownTimer(timeLeftInMillis, 1000) {
             override fun onTick(millisUntilFinished: Long) {
                 timeLeftInMillis = millisUntilFinished
@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onFinish() {
-                timerTextView.text = "Tempo Encerrado"
+                timerTextMinus.text = "Tempo Encerrado"
             }
         }.start()
     }
@@ -43,6 +43,6 @@ class MainActivity : AppCompatActivity() {
     private fun updateCountdownUI() {
         val minutes = (timeLeftInMillis / 1000) / 60
         val seconds = (timeLeftInMillis / 1000) % 60
-        timerTextView.text = String.format("%02d:%02d", minutes, seconds)
+        timerTextMinus.text = String.format("%02d:%02d", minutes, seconds)
     }
 }
