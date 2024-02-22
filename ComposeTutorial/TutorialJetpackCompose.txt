@@ -2,6 +2,9 @@ Tutorial do Jetpack Compose
 
 (https://developer.android.com/jetpack/compose/tutorial?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fjetpack-compose-for-android-developers-1&hl=pt-br#article-https://developer.android.com/jetpack/compose/tutorial&hl=pt-br)
 
+# COMPOSE ESSENTIALS
+
+1.Starter tutorial
 Lição 1: funções de composição
 - Adicionar um elemento de texto
 - Definir uma função que pode ser composta
@@ -14,3 +17,14 @@ Lição 2: layouts
 - Configurar o layout
 
 Lição 3: Material Design
+- Usar o Material Design
+- Cor
+- Tipografia
+- Forma
+- Ativar tema escuro
+
+Lição 4: Listas e animações
+- Criar uma lista de mensagens
+- Animar mensagens ao abrir
+
+2. Thinking in Compose
