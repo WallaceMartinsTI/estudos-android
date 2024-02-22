@@ -28,3 +28,8 @@ Lição 4: Listas e animações
 - Animar mensagens ao abrir
 
 2. Thinking in Compose
+(https://www.youtube.com/watch?v=4zf30a34OOA)
+- Describe what, not how
+- UI elements are functions
+- State controls UI
+- Events control State
