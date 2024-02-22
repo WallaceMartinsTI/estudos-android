@@ -1,0 +1,16 @@
+Tutorial do Jetpack Compose
+
+(https://developer.android.com/jetpack/compose/tutorial?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fjetpack-compose-for-android-developers-1&hl=pt-br#article-https://developer.android.com/jetpack/compose/tutorial&hl=pt-br)
+
+Lição 1: funções de composição
+- Adicionar um elemento de texto
+- Definir uma função que pode ser composta
+- Visualizar a função no Android Studio
+
+Lição 2: layouts
+- Adicionar vários textos
+- Como usar uma coluna
+- Adicionar um elemento de imagem
+- Configurar o layout
+
+Lição 3: Material Design
