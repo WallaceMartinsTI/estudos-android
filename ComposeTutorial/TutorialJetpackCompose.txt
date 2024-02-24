@@ -33,3 +33,11 @@ Lição 4: Listas e animações
 - UI elements are functions
 - State controls UI
 - Events control State
+
+3. Composable functions
+(https://www.youtube.com/watch?v=fFLBCgoHHys&t=551s)
+- Create composables using the @Composable annotation
+- It's quick & easy to create composables
+- Composables accept parameters
+- Use MutableState and remember
+- Composables should be side-effect free
